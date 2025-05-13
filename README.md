@@ -1,71 +1,87 @@
+# Argo: A Narrative Military Ops Campaign
 
-# 🧾 README: Argo Campaign – GM Guide
+## 🎮 Overview
 
-## 📦 CAMPAIGN STRUCTURE
-The Argo Campaign is divided into four narrative phases (ACT 0–ACT III). Players begin as **Argos soldiers**, only to later switch perspectives to **SPECTRE operatives**, uncovering the truth behind Argos’ actions. Use this folder structure and tagged documents to guide each stage.
+**Argo** is an immersive, GM-guided narrative campaign blending tactical military decision-making, roleplay, and psychological intrigue. Built for cooperative storytelling, players begin as Argos soldiers enforcing order in a foreign land—only to uncover a deeper truth as members of SPECTRE, a covert international special operations group.
 
-### 🎯 CORE OBJECTIVE
-Lead players through a slow-burn military thriller filled with moral complexity, conflicting intelligence, and escalating consequences. Ensure immersion through faction loadouts, visual briefings, and emotionally resonant decision points.
-
----
-
-## 🔖 FILE SYSTEM OVERVIEW
-
-| Tag Prefix         | Meaning                        | Example Filename                         |
-|--------------------|--------------------------------|-------------------------------------------|
-| `A0`, `A1`, `A2`…  | Campaign Act                   | `A1-MIS-001-IRONSL.docx` (Act I Mission)  |
-| `MIS`, `BRF`, `INT`, `VIS`, `DRO` | File Type            | `BRF` = Briefing, `INT` = Intel Drop      |
-| `SYS`              | System Files / GM Utilities    | `SYS-GUIDE-001-PLAYSEQ.docx`              |
-
-✅ Use `Argo_Campaign_Reference_Index.xlsx` for an overview of all filenames, file types, and usage locations.
+> "First you follow orders. Then you question them. Then you choose your war."
 
 ---
 
-## 🕹 GM WORKFLOW
+## 🗂️ Project Structure
 
-1. **Read `SYS-GUIDE-001-PLAYSEQ.docx`**
-   - This is your **playthrough script**, organized by Act and Date.
-   - Intel and image prompts are marked:  
-     `→ [GM Show to Players: A2-INT-003-BBSIGINT.png]`
-
-2. **Start each session with the Act Intro**
-   - Use the provided **GM Read-Alouds** to set tone.
-
-3. **Deliver files as prompted**
-   - Briefings, visuals, SIGINT, and maps should be presented at the right moment.
-   - Most are pre-tagged and grouped by ACT.
-
-4. **Track player outcomes**
-   - Use `SYS-TBL-006-CTRACK.xlsx` to log decisions, reputation, and reveal paths.
-   - Optional: `SYS-TBL-003-MGEN.xlsx` for side mission generation.
-
-5. **Present key decision points**
-   - Reveal or conceal intel based on player actions.
-   - Log moral alignment shifts. These shape the finale.
+| Folder              | Contents |
+|---------------------|----------|
+| `/docs`             | Campaign script, mission briefings, narrative summaries |
+| `/intel`            | SIGINT files, intercepted comms, dossiers |
+| `/visuals`          | Maps, wanted posters, surveillance photos |
+| `/tools`            | Campaign trackers, mission generators, faction tables |
+| `LICENSE.md`        | Licensing terms (CC BY-NC 4.0) |
+| `README.md`         | This file |
 
 ---
 
-## 🧠 RECOMMENDED GM TOOLS
+## 🔧 Requirements
 
-- ✅ PDF viewer or image viewer to show handouts
-- ✅ One laptop screen for campaign script, one for visuals
-- ✅ Optional: print loadout cards or display on a tablet
-
----
-
-## 📌 QUICK LINKS
-
-| What You Need                      | File to Use                          |
-|-----------------------------------|--------------------------------------|
-| Full campaign walkthrough         | `SYS-GUIDE-001-PLAYSEQ.docx`         |
-| List of files + appearances       | `Argo_Campaign_Reference_Index.xlsx` |
-| SPECTRE Mission Brief             | `A2-BRF-003-SPECTRE.docx`            |
-| Timeline of events                | `A3-VIS-011-TIMELINE.png` *(if included)* |
-| Track outcomes                    | `SYS-TBL-006-CTRACK.xlsx`            |
+- A GM to guide the experience
+- PDF or image viewer to share handouts and intel
+- Optional: printed handouts or tablet for briefings
+- Familiarity with collaborative storytelling or TTRPG-style play
 
 ---
 
-## ✉️ CLOSING
-This campaign is built to grow darker and more complex as players peel back the truth. Use timing, tone, and silence as your tools. Let them question everything—even themselves.
+## 📘 How to Play
 
-Good luck, Operator.
+1. **Start with** `SYS-GUIDE-001-PLAYSEQ.docx`  
+   This file is the GM's master script for running the campaign.
+
+2. **Introduce the players with the GM Read-Aloud: “The Iron Mirror”**  
+   Begin with ACT 0 and walk players through intel drops, rumors, and missions.
+
+3. **Switch perspectives at ACT II**  
+   Players transition from Argos soldiers to SPECTRE operatives.
+
+4. **Track progress using** `SYS-TBL-006-CTRACK.xlsx`  
+   Log player choices, moral alignments, and final outcomes.
+
+5. **Conclude with ACT III**  
+   Players uncover Black Branch and decide how the war ends.
+
+---
+
+## 🧩 Tags and File Naming
+
+Files are organized by:
+- `A0`–`A3` for Acts
+- `BRF`, `MIS`, `INT`, `VIS`, `TBL` for content type  
+  *(e.g., `A2-BRF-003-SPECTRE.docx` = SPECTRE briefing in Act II)*
+
+See `Argo_Campaign_Reference_Index.xlsx` for a complete breakdown.
+
+---
+
+## 🔐 License
+
+© River City One Sixth LLC – 2025  
+This work is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+
+You may share and adapt the material for non-commercial use, with proper attribution.
+
+---
+
+## 🌐 Contact & Attribution
+
+Created by **River City One Sixth LLC**  
+For updates, expansions, or additional campaigns, visit: [https://github.com/rivercityonesixth](https://github.com/rivercityonesixth)
+
+---
+
+## 🎖 Suggested Uses
+
+- Tactical storytelling sessions with friends
+- Immersive narrative wargame campaigns
+- Roleplay scenarios without full TTRPG systems
+
+---
+
+**Prepare. Deploy. Discover the truth.**
